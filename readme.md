@@ -37,5 +37,8 @@ Java
 Git
 
 - [Git install](https://de.atlassian.com/git/tutorials/install-git "Git install for common OS") 
+- [Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf "Git Cheat Sheet")
 - [How to write Commit Message](https://chris.beams.io/posts/git-commit/#seven-rules "The seven Rules for commit messages")
+- [Interactive Online Tutorial](https://try.github.io/levels/1/challenges/1 "Interactive Online Tutorial")
+- [Interactive Learning Git Branching](https://learngitbranching.js.org/ "Interactive Learning Git Branching")
 
