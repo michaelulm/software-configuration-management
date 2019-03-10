@@ -17,6 +17,7 @@ Bachelor program **IT DUAL**:
 **Course Modules:**
 
 - [Project Layouts](project-layouts)
+- [Source Code Versioning](versioning)
 
 
 **Download and useful Links:**
@@ -26,9 +27,15 @@ Bachelor program **IT DUAL**:
 - [Apache Maven](https://maven.apache.org/download.cgi "Apache Maven")
 - [IDE IntelliJ](https://www.jetbrains.com/idea/download/ "IDE IntelliJ") also available for [Students](https://www.jetbrains.com/student/ "Student licence")
 - [IDE Eclipse](https://www.eclipse.org/downloads/ "IDE Eclipse")
+- [Git](https://git-scm.com/downloads "Git")
 
+
+Java
 
 - [Compiling & Running a Simple Program](https://www.oracle.com/technetwork/java/compile-136656.html)
 
- 
+Git
+
+- [Git install](https://de.atlassian.com/git/tutorials/install-git "Git install for common OS") 
+- [How to write Commit Message](https://chris.beams.io/posts/git-commit/#seven-rules "The seven Rules for commit messages")
 
