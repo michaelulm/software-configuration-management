@@ -42,6 +42,10 @@ Git
 - [Interactive Online Tutorial](https://try.github.io/levels/1/challenges/1 "Interactive Online Tutorial")
 - [Interactive Learning Git Branching](https://learngitbranching.js.org/ "Interactive Learning Git Branching")
 
+Setup and Installation
+
+- How to set Path System Variables ([German](https://www.java.com/de/download/help/path.xml "Wie richte ich eine PATH-Systemvariable ein oder ändere diese? ") | [English](https://www.java.com/en/download/help/path.xml "How do I set or change the PATH system variable? ") Instruction)
+
 Documentation
 
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet "Markdown Cheat Sheet")
