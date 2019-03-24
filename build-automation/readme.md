@@ -83,7 +83,7 @@ execute JAR File with an argument
 
 also execute JAR File, but by using a [Maven Plugin](https://mvnrepository.com/artifact/org.codehaus.mojo/exec-maven-plugin "Exec Maven Plugin"). Output will between the Maven Output.
 
-![Example Output of exec-maven-plugin](/SimpleAutomaticBuildProject/site/exec-maven-plugin-output.jpg)
+![Example Output of exec-maven-plugin](./SimpleAutomaticBuildProject/site/exec-maven-plugin-output.jpg)
 
 
 After understanding Maven Build you can start to build a classic Ant Project.
