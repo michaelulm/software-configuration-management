@@ -66,6 +66,7 @@ Build Automation
 - [Maven Local Repository](https://www.baeldung.com/maven-local-repository "Where is the Maven Local Repository?") 
 - [Ant First Steps](http://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html "Hello World with Ant")
 - [Ant Tasks](https://ant.apache.org/manual/tasksoverview.html "Common Ant Tasks")
+- [Ant Property](https://ant.apache.org/manual/Tasks/property.html "Ant Property")
 
 *Executable Jar*
 

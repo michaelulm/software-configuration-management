@@ -30,6 +30,8 @@ Running Maven for the first time, will download needed Repositories to the [loca
 
 Ant works the "same way" like Maven, but there's no real standardisation. A common standard schema exists, but it's possible to extend it individually for your needs and project structure.
 
+### Targets and Tasks ###
+
 There are a handful of [recommended default targets](http://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html), where nearly every target includes target dependency mentioned in (...):
 
 - clean
@@ -60,6 +62,12 @@ will trigger the following steps
 - test
 - jar
 - run
+
+### Properties for local configurations ###
+
+It's possible to use a **build.properties** to create a environment independet build. All individual configurations are included as single Properties. A [Property](https://ant.apache.org/manual/Tasks/property.html) could be e.g. a Folder, a Output File, ...
+
+to deliver all possible configurations just use a **build.properties.template** and add this to your Repository. Your own configuration of build.properties should be ignored in Version Control System.
 
 ## Exercise ##
 
