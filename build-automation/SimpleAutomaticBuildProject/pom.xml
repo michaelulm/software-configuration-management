@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>at.fhj.iit</groupId>
+    <artifactId>SimpleAutomaticBuildProject</artifactId>
+    <version>1.0-SNAPSHOT</version>
+	
+	<developers>
+		<developer>
+		  <id>michaelulm</id>
+		  <name>Michael Ulm</name>
+		  <email>michael.ulm@fh-joanneum.at</email>
+		  <url>https://www.michael-ulm.at</url>
+		  <organization>FH JOANNEUM GmbH</organization>
+		  <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+		  <roles>
+			<role>Lecturer</role>
+		  </roles>
+		  <timezone>Europe/Vienna</timezone>
+		  <properties>
+			<picUrl>https://avatars2.githubusercontent.com/u/15637184</picUrl>
+		  </properties>
+		</developer>
+	</developers>
+	
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <release>11</release>
+                </configuration>
+            </plugin>
+			
+            <plugin>
+                <!-- Build an executable JAR -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.0.2</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
+                            <mainClass>at.fhj.iit.Main</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+			</plugin>
+			
+			
+            <plugin>
+				<!-- run the executable JAR -->
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.6.0</version>
+                <configuration>
+                    <mainClass>at.fhj.iit.Main</mainClass>
+                    <arguments>
+                        <argument>Michael Ulm</argument>
+                    </arguments>
+                </configuration>
+            </plugin>
+			
+			
+            <!-- maven site for documentation -->
+            <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+				<version>3.7.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+				<version>3.0.0</version>
+			</plugin>
+        </plugins>
+    </build>
+    
+</project>
