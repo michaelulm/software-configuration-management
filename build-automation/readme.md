@@ -94,7 +94,7 @@ also execute JAR File, but by using a [Maven Plugin](https://mvnrepository.com/a
 ![Example Output of exec-maven-plugin](./SimpleAutomaticBuildProject/site/exec-maven-plugin-output.jpg)
 
 
-After understanding Maven Build you can start to build a classic Ant Project.
+After understanding Maven Build you can start to build a classic Ant Project. Use this simple [Ant build.xml Demo](build.xml "just a simple introduction for build.xml") for a first quick start.
 
 - Restructure from Maven Project Layout to Ant Project Layout
 - Create build.xml with recommended targets using common [Ant Tasks](https://ant.apache.org/manual/tasksoverview.html)
