@@ -24,6 +24,17 @@
 			<picUrl>https://avatars2.githubusercontent.com/u/15637184</picUrl>
 		  </properties>
 		</developer>
+        <developer>
+          <id>chrishofer</id>
+          <name>Christian Hofer</name>
+          <email>christian.hofer@campus02.at</email>
+          <organization>CAMPUS 02 Fachhochschule der Wirtschaft GmbH</organization>
+          <organizationUrl>https://www.campus02.at/wirtschaftsinformatik</organizationUrl>
+          <roles>
+            <role>Lecturer &amp; Research Scientist</role>
+          </roles>
+          <timezone>Europe/Vienna</timezone>
+        </developer>        
 	</developers>
 	
     <build>
