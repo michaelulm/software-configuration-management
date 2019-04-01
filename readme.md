@@ -73,6 +73,12 @@ Build Automation
 - [Ant Run Executable Jar with Arguments](https://stackoverflow.com/questions/3730880/use-ant-for-running-program-with-command-line-arguments/3731246 "Use Ant for running program with command line arguments")
 - [Maven Plugin: Run Executable Jar](https://stackoverflow.com/questions/1089285/maven-run-project "run maven project")
 
+Test Automation
+
+- [JUnit Test Framework](https://junit.org/ "JUnit Test Framework")
+- [Article: Unit Testing with JUnit](http://www.vogella.com/articles/JUnit/article.html "Vogella Tutorial - Good to read")
+- [Article (german): Java Tests mit JUnit](http://www.tutego.de/blog/javainsel/2010/04/junit-4-tutorial-java-tests-mit-junit/ "German Article to Java Tests with JUnit, extended Article, good structured") 
+
 
 Documentation
 
