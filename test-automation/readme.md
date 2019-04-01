@@ -50,4 +50,4 @@ A queue is another abstract data type that also serves as a collection of elemen
 - **enqueue** (offer), which adds an element to the collection
 - **dequeue** (poll), which removes the first added element
 
-There are **no** Test-Cases defined, so you have to design your own Test-Cases the first time.
+There are **no** Test-Cases defined, so you have to design your own Test-Cases the first time. This Example also **includes some Bugs**, which has to be founded by **Debugging** in your IDE
