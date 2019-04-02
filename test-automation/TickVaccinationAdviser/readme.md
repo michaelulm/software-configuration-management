@@ -4,6 +4,6 @@
 
 ## Test Automation with JUnit ##
 
-### Vaccination Adviser Exercise ###
+### Tick Vaccination Adviser Exercise ###
 
 This is just a toy exercise and no medical information software.
