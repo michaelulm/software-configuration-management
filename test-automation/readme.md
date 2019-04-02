@@ -33,7 +33,7 @@ Popular High-School example with coordinate system to determine distance between
 
 ### Tick Vaccination Adviser Exercise ###
 
-Advises when to get the next vaccination against ticks. This example uses date classes from the JAVA SDK.
+Advises when to get the next vaccination against ticks. This example uses date classes from the JAVA SDK. Test methods are already predefined (but without step-by-step instructions)
 
 ### Stack Exercise ###
 
