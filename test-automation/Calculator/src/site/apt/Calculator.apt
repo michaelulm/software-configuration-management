@@ -1,0 +1,17 @@
+Calculator Example
+
+	Simple Java Implementation for first test implementations.
+
+* Source Code
+
+	Interface and Implementation Classes, including method signatures in interface and very simple calculation in implementation class.
+
+* Test Code
+
+** Predefined Methods
+
+	Each implementated method should be tested. so the first tests are predefined for quick start.
+
+** Demo Test Method
+
+	there are two finished test methods, which are short demonstrations for testing an implementation. of course, it's very simple, but it fit the needs of test automation and education purpose.
