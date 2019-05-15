@@ -36,7 +36,7 @@ public class CalculatorTest {
 	 */
 	@Test
 	public void testAdd2() {
-
+		assertTrue("This will fail!", false);
 	}
 
 	/**
@@ -46,7 +46,7 @@ public class CalculatorTest {
 	 */
 	@Test
 	public void testMinus() {
-
+		assertTrue("This will fail!", false);
 	}
 
 	/**
@@ -56,7 +56,7 @@ public class CalculatorTest {
 	 */
 	@Test
 	public void testMultiply() {
-
+		assertTrue("This will fail!", false);
 	}
 
 	/**
@@ -66,7 +66,7 @@ public class CalculatorTest {
 	 */
 	@Test
 	public void testDivide() {
-
+		assertTrue("This will fail!", false);
 	}
 
 

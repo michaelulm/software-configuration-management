@@ -36,6 +36,12 @@
                     <release>11</release>
                 </configuration>
             </plugin>
+			
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
+            </plugin>
         </plugins>
     </build>
 
@@ -47,4 +53,85 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+	
+    <reporting>
+        <plugins>
+		
+            <!-- maven site for documentation -->
+			<!-- manual upgraded maven site plugin, because 3.3 had an error -->
+            <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
+            </plugin>
+			
+			<!-- reporting project information -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+			  <version>3.0.0</version>
+            </plugin>
+			
+            <!-- java doc support for maven site -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <reportSets>
+				
+                    <!-- reports our javadocs in our src code and test code -->
+                    <reportSet>
+                        <reports>
+                            <report>javadoc</report>
+                            <report>test-javadoc</report>
+                        </reports>
+                    </reportSet>
+					
+					<!-- aggregate reportSet, to define in poms having modules -->
+                    <reportSet>
+                        <id>aggregate</id>
+                        <inherited>false</inherited><!-- don't run aggregate in child modules -->
+                        <reports>
+                            <report>aggregate</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
+            </plugin>
+			
+            <!-- integrate test results -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+            </plugin>
+			
+            <!-- Cross References -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jxr-plugin</artifactId>
+            </plugin>
+			
+            <!-- integrate test Code Coverage -->
+            <plugin>
+                <artifactId>maven-clover-plugin</artifactId>
+            </plugin>
+			
+        </plugins>
+    </reporting>
+	
+    <!-- define SCM and will be read by generating maven site -->
+    <scm>
+        <connection>scm:git:https://github.com/michaelulm/software-configuration-management</connection>
+        <developerConnection>scm:git:https://github.com/michaelulm/software-configuration-management</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/michaelulm/software-configuration-management</url>
+    </scm>
+
+    <!-- define your current license, Care about sharing :) -->
+    <licenses>
+        <license>
+            <name>GNU GPLv3 </name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.de.html</url>
+            <distribution>repo</distribution>
+            <comments>I care about sharing improvements.</comments>
+        </license>
+    </licenses>
 </project>

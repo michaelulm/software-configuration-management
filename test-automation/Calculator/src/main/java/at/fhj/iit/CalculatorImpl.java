@@ -2,6 +2,9 @@ package at.fhj.iit;
 
 public class CalculatorImpl implements Calculator {
 	
+	/**
+	 * Easy Calculator for first steps in test automation for Educational Usage
+	 */
 	public CalculatorImpl(){
 		
 	}

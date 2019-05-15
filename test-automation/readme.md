@@ -8,9 +8,10 @@ Examples:
 
 - [Calculator Example](Calculator)
 - [Loan Calculator Example](LoanCalculator)
-- [Distance Example](LoanCalculator)
-- [Stack Example](LoanCalculator)
-- [Queue Example](LoanCalculator)
+- [Distance Example](Distance)
+- [Tick Vaccination Adviser Example](TickVaccinationAdviser)
+- [Stack Example](Stack)
+- [Queue Example](Queue)
 
 all Exercises includes basic implementation to exercise test automation with test framework JUnit. The order of exercises represents the complexity of each exercise. First Exercises includes more information and step-by-step guidelines. 
 
@@ -22,13 +23,17 @@ Easy Starting Exercise with first running Test and pre-defined Test-Cases. Try t
 
 ### Loan Calculator Exercise ###
 
-...
+Calculates monthly repayment, total cost and interest cost for a multi-year credit with a fixed yearly interest rate. Test methods are already predefined (but without step-by-step instructions)
 
 ### Distance Exercise ###
 
 ![Coordinate System with two Points](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Kartesisches_system.svg/600px-Kartesisches_system.svg.png)
 
 Popular High-School example with coordinate system to determine distance between two Points. Pre-Defined Test-Cases with Test-Instruction supports for creating next Test Code.
+
+### Tick Vaccination Adviser Exercise ###
+
+Advises when to get the next vaccination against ticks. This example uses date classes from the JAVA SDK. Test methods are already predefined (but without step-by-step instructions)
 
 ### Stack Exercise ###
 

@@ -40,7 +40,7 @@ public class StringStackTest
      * 
      * do following test
      * - use push, 1 or x times
-     * - use pull, as often as you use push
+     * - use pop, as often as you use push
      * - use isEmpty to check that's empty again
      * - assert every content of the stack in the correct ordering
      * @throws Exception 
