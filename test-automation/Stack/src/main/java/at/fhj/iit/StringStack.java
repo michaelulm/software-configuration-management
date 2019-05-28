@@ -1,4 +1,6 @@
 package at.fhj.iit;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 /**
  * Stack Implementation of <code>Stack</code> Interface.
@@ -12,6 +14,7 @@ package at.fhj.iit;
  */
 public class StringStack implements Stack
 {
+    private static final Logger logger = LogManager.getLogger(StringStack.class);
 	/**
 	 * stores the string values of this stack
 	 */
@@ -32,9 +35,11 @@ public class StringStack implements Stack
      */
     public StringStack(int capacity)
     {
-        if(capacity <= 0)
+        logger.info("constructor with capacity " + capacity);
+        if(capacity <= 0) {
+            logger.error("throw IllegalArgumentException");
             throw new IllegalArgumentException("size <= 0");
-     
+        }
         elementData = new String[capacity];
         elementCount = 0;
     }
@@ -42,6 +47,7 @@ public class StringStack implements Stack
     @Override
 	public boolean isEmpty() 
     {
+        logger.info("check if empty");
     	// if the array is empty returns true, otherwise their are elements and returns false
         return (elementCount == 0);
     }
@@ -49,9 +55,11 @@ public class StringStack implements Stack
     @Override
 	public void push(String item)
     {
-        if(elementCount == elementData.length)
+        logger.info("push");
+        if(elementCount == elementData.length) {
+            logger.error("throw IllegalStateException");
             throw new IllegalStateException();
-        
+        }
         // add element to array and increment the counter
         elementData[elementCount++] = item;
     }
@@ -59,9 +67,11 @@ public class StringStack implements Stack
     @Override
 	public String pop()
     {
-        if(elementCount == 0)
+        logger.info("pop");
+        if(elementCount == 0) {
+            logger.error("throw IllegalStateException");
             throw new IllegalStateException();
-        
+        }
         //returns the element and decrement the counter
         return elementData[--elementCount];
     }    
