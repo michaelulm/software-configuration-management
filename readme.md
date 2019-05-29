@@ -89,6 +89,11 @@ Documentation
 
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet "Markdown Cheat Sheet")
 
+*Convert Markdown to PDF*
+- [Dillinger](https://dillinger.io)
+- [Pandoc](https://pandoc.org)
+  - Call `pandoc file.md -o file.pdf`
+
 *Maven pom.xml*
 
 - [Developers Information](https://maven.apache.org/pom.html#Developers "Developers Example")
