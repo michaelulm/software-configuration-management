@@ -16,6 +16,8 @@ the final class structure should be
 - 1 test class
 - 1 source class
 
+*Only Basic Exercise necessary for final exercise in summer term 2019*
+
 **Extended Exercise:**
 
 - create Integer Queue Implementation (new class)
