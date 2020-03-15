@@ -14,7 +14,7 @@ Bachelor program **IT DUAL**:
 - Configuration Management (Konfigurationsmanagement)
 
 
-**Course Modules:**
+## Course Modules: ##
 
 - [Project Layouts](project-layouts)
 - [Source Code Versioning](versioning)
@@ -25,30 +25,33 @@ Bachelor program **IT DUAL**:
 take a look on following helpful links 
 
 
-**Download and useful Links:**
+## useful Links (Downloads, Articles, ...): ##
 
 
-Setup and Installation
+### Setup and Installation ###
 
 - How to set Path System Variables ([German](https://www.java.com/de/download/help/path.xml "Wie richte ich eine PATH-Systemvariable ein oder ändere diese? ") | [English](https://www.java.com/en/download/help/path.xml "How do I set or change the PATH system variable? ") Instruction)
-- [Java JDK (Oracle)](https://www.oracle.com/technetwork/java/javase/downloads/index.html "Java JDK (Oracle)")
+- Java JDK 
+	- [Oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html downloads/index.html "Java JDK (Oracle)")
+	- [OpenJDK](https://jdk.java.net/13/ "Java JDK (OpenJDK recommended)") recommended
 - [Apache Ant](https://ant.apache.org/bindownload.cgi "Apache Ant")
 - [Apache Maven](https://maven.apache.org/download.cgi "Apache Maven")
-- [IDE IntelliJ](https://www.jetbrains.com/idea/download/ "IDE IntelliJ") also available for [Students](https://www.jetbrains.com/student/ "Student licence")
-- [IDE Eclipse](https://www.eclipse.org/downloads/ "IDE Eclipse")
-- [Git](https://git-scm.com/downloads "Git")
-- [Tortoise Git](https://tortoisegit.org/download/ "Tortoise Git - Windows Shell Interface to Git")
+- IDE
+	- [IntelliJ](https://www.jetbrains.com/idea/download/ "IDE IntelliJ") also available for [Students](https://www.jetbrains.com/student/ "Student licence")
+	- [Eclipse](https://www.eclipse.org/downloads/ "IDE Eclipse")
+- [Git](https://git-scm.com/downloads "Git") for Source Code Versioning
+- [Tortoise Git](https://tortoisegit.org/download/ "Tortoise Git - Windows Shell Interface to Git") for Windows Context Menu
 
-Java
+### Java 
 
 - [Compiling & Running a Simple Program](https://www.oracle.com/technetwork/java/compile-136656.html)
 - [Creating a JAR File](https://docs.oracle.com/javase/tutorial/deployment/jar/build.html "Creating a JAR file")
 
-Project Layouts
+###Project Layouts
 
 - [Maven Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html "Introduction to the Standard Directory Layout")
 
-Versioning and Git
+###Versioning and Git
 
 - [Git install](https://de.atlassian.com/git/tutorials/install-git "Git install for common OS") 
 - [Git Cheat Sheet](https://github.github.com/training-kit/downloads/de/github-git-cheat-sheet/ "Git Cheat Sheet")
@@ -59,7 +62,7 @@ Versioning and Git
 - [Some common .gitignore configuration](https://gist.github.com/octocat/9257657 "Common .gitignore configuration")
 - [GitHub Education](https://education.github.com/students "GitHub Education") (unlimited Private Repositories)
 
-Build Automation
+###Build Automation
 
 *First steps*
 
@@ -83,7 +86,7 @@ Test Automation
 - [List of JUnit Annotations](http://www.java2novice.com/junit-examples/junit-annotations/)
 
 
-Documentation
+###Documentation
 
 *Markdown*
 

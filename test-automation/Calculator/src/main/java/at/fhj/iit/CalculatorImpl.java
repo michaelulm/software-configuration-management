@@ -16,6 +16,11 @@ public class CalculatorImpl implements Calculator {
 	public double add(double number1, double number2){
 		return number1 + number2;
 	}
+	
+	// TODO implement addition methods
+	
+	
+	
 	/* (non-Javadoc)
 	 * @see at.fhj.itm.demo.Calculator#minus(java.lang.double, java.lang.double)
 	 */
