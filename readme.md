@@ -40,6 +40,7 @@ take a look on following helpful links
 	- [IntelliJ](https://www.jetbrains.com/idea/download/ "IDE IntelliJ") also available for [Students](https://www.jetbrains.com/student/ "Student licence")
 	- [Eclipse](https://www.eclipse.org/downloads/ "IDE Eclipse")
 - [Git](https://git-scm.com/downloads "Git") for Source Code Versioning
+	- [Installation Tutorial](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/) for every Operating System 
 - [Tortoise Git](https://tortoisegit.org/download/ "Tortoise Git - Windows Shell Interface to Git") for Windows Context Menu
 
 ### Java 
