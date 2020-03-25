@@ -6,12 +6,12 @@
 
     <artifactId>ChildLoggerService</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <groupId>at.fhj.iit</groupId>
 
-	<parent>
-		<groupId>at.fhj.iit</groupId>
-		<artifactId>ParentProject</artifactId>
-		<version>1.0-SNAPSHOT</version>
-		<relativePath>../ParentProject/pom.xml</relativePath>
-	</parent>
-    
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
 </project>
