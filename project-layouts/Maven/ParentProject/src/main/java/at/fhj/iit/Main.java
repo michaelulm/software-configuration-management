@@ -17,6 +17,12 @@ public class Main {
         System.out.printf(welcomeMsg);
 
         ls.log("finished");
+
+        // tested new added child project
+        NumberGeneratorService generator = new NumberGeneratorService();
+        int myNumber = generator.random(0,10);
+        System.out.println(myNumber);
+
     }
 
 }
