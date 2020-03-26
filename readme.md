@@ -32,7 +32,7 @@ take a look on following helpful links
 
 - How to set Path System Variables ([German](https://www.java.com/de/download/help/path.xml "Wie richte ich eine PATH-Systemvariable ein oder ändere diese? ") | [English](https://www.java.com/en/download/help/path.xml "How do I set or change the PATH system variable? ") Instruction)
 - Java JDK 
-	- [Oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html downloads/index.html "Java JDK (Oracle)")
+	- [Oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html "Java JDK (Oracle)")
 	- [OpenJDK](https://jdk.java.net/13/ "Java JDK (OpenJDK recommended)") recommended
 - [Apache Ant](https://ant.apache.org/bindownload.cgi "Apache Ant")
 - [Apache Maven](https://maven.apache.org/download.cgi "Apache Maven")
@@ -48,20 +48,10 @@ take a look on following helpful links
 - [Compiling & Running a Simple Program](https://www.oracle.com/technetwork/java/compile-136656.html)
 - [Creating a JAR File](https://docs.oracle.com/javase/tutorial/deployment/jar/build.html "Creating a JAR file")
 
-###Project Layouts
 
-- [Maven Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html "Introduction to the Standard Directory Layout")
 
-###Versioning and Git
+    below old structure from Spring/Summer 2019, will be transfered step by step
 
-- [Git install](https://de.atlassian.com/git/tutorials/install-git "Git install for common OS") 
-- [Git Cheat Sheet](https://github.github.com/training-kit/downloads/de/github-git-cheat-sheet/ "Git Cheat Sheet")
-- [How to write Commit Message](https://chris.beams.io/posts/git-commit/#seven-rules "The seven Rules for commit messages")
-- [Interactive Online Tutorial](https://try.github.io/levels/1/challenges/1 "Interactive Online Tutorial")
-- [Interactive Learning Git Branching](https://learngitbranching.js.org/ "Interactive Learning Git Branching")
-- Pro Git Book ([German](https://git-scm.com/book/de/v2/ "Pro Git Book") | [English](https://git-scm.com/book/en/v2 "Pro Git Book"))
-- [Some common .gitignore configuration](https://gist.github.com/octocat/9257657 "Common .gitignore configuration")
-- [GitHub Education](https://education.github.com/students "GitHub Education") (unlimited Private Repositories)
 
 ###Build Automation
 
