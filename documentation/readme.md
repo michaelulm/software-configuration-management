@@ -14,7 +14,7 @@ we are recommending to use those online resource by given order.
 5. Document Driven Development ([Article](https://gist.github.com/zsup/9434452))
 6. Writing great documentation ([Video](https://www.youtube.com/watch?v=z3fRu9pkuXE))
 
-###Markdown
+### Markdown
 
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet "Markdown Cheat Sheet")
 - [Markdown GitHub Flavor](https://github.github.com/gfm/)
