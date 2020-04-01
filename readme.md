@@ -18,9 +18,9 @@ Bachelor program **IT DUAL**:
 
 - [Project Layouts](project-layouts)
 - [Source Code Versioning](versioning)
+- [Technical Documentation](documentation)
 - [Build Automation](build-automation)
 - [Test Automation](test-automation)
-- [Technical Documentation](documentation)
 
 take a look on following helpful links, specific topics will be described in separated course modules
 

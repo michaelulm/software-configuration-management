@@ -19,10 +19,10 @@ we are recommending to use those online resource by given order.
 	- Try to work with command-line at the same time to learn first Git-Commands
 	- Replay parts of the video, if something was too fast to repeat by yourself
 2. Learn interactive Git-Commands with visualization and short tutorials ([Interactive](https://learngitbranching.js.org/)) 
-2. Git Handbook and explained Git-Commands, optional ([Article](https://guides.github.com/introduction/git-handbook/))
+2. Git Handbook and explained Git-Commands ([Article](https://guides.github.com/introduction/git-handbook/), optional)
 3. Step by Step Guide to Git with GitHub ([Article](https://opensource.com/article/18/1/step-step-guide-git))
 3. Write good Commit-Messages ([Article](https://chris.beams.io/posts/git-commit/))
-4. Introduction to GitHub, optional ([Free Course](https://lab.github.com/githubtraining/introduction-to-github))
+4. Introduction to GitHub ([Free Course](https://lab.github.com/githubtraining/introduction-to-github), optional)
 
 ### Additional Links
 
