@@ -43,4 +43,4 @@ we are recommending to use those online resource by given order.
 
 *Useful Examples*
 
-- "Best Practice", no just [bad tase comments](https://loudprogrammer.net/best-comments-in-source-code-i-ever-encountered/)
+- "Best Practice", no just [bad taste comments](https://loudprogrammer.net/best-comments-in-source-code-i-ever-encountered/)
