@@ -20,9 +20,9 @@ Bachelor program **IT DUAL**:
 - [Source Code Versioning](versioning)
 - [Build Automation](build-automation)
 - [Test Automation](test-automation)
-- Technical Documentation
+- [Technical Documentation](documentation)
 
-take a look on following helpful links 
+take a look on following helpful links, specific topics will be described in separated course modules
 
 
 ## useful Links (Downloads, Articles, ...): ##
@@ -76,31 +76,3 @@ Test Automation
 - [Article (german): Java Tests mit JUnit](http://www.tutego.de/blog/javainsel/2010/04/junit-4-tutorial-java-tests-mit-junit/ "German Article to Java Tests with JUnit, extended Article, good structured") 
 - [List of JUnit Annotations](http://www.java2novice.com/junit-examples/junit-annotations/)
 
-
-###Documentation
-
-*Markdown*
-
-- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet "Markdown Cheat Sheet")
-
-*Convert Markdown to PDF*
-- [Dillinger](https://dillinger.io)
-- [Pandoc](https://pandoc.org)
-  - Call `pandoc file.md -o file.pdf`
-
-*Maven pom.xml*
-
-- [Developers Information](https://maven.apache.org/pom.html#Developers "Developers Example")
-
-*Maven Site Plugin*
-
-- [Creating first content](https://maven.apache.org/plugins/maven-site-plugin/examples/creating-content.html "Creating Content Example")
-
-
-*JavaDoc*
-
-- [How to write doc comments for the JavaDoc Tool](https://www.oracle.com/technetwork/java/javase/documentation/index-137868.html "Good Article to get in contact with first advice to write JavaDoc")
-
-*Useful Examples*
-
-- "Best Practice", no just [bad tase comments](https://loudprogrammer.net/best-comments-in-source-code-i-ever-encountered/)
