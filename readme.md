@@ -25,9 +25,9 @@ Bachelor program **IT DUAL**:
 
 - [Project Layouts](project-layouts), with **Maven** and general project structure
 - [Source Code Versioning](versioning), with **Git** Source Code Versioning
-- [Technical Documentation](documentation), with **JUnit** 4 and JUnit 5 (soon)
+- [Technical Documentation](documentation), with **JavaDoc** and **Maven Site**
+- [Test Automation](test-automation), with **JUnit** 4 and JUnit 5 (soon)
 - [Build Automation](build-automation)
-- [Test Automation](test-automation)
 
 take a look on following helpful links, specific topics will be described in separated course modules
 
