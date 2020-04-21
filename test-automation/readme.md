@@ -6,12 +6,12 @@
 
 Examples:
 
-- [Calculator Example](Calculator)
-- [Loan Calculator Example](LoanCalculator)
-- [Distance Example](Distance)
-- [Tick Vaccination Adviser Example](TickVaccinationAdviser)
-- [Stack Example](Stack)
-- [Queue Example](Queue)
+- Calculator Example [JUnit 4](junit4/Calculator) | [JUnit 5](junit5/Calculator)
+- Loan Calculator Example [JUnit 4](LoanCalculator) | [JUnit 5](LoanCalculator)
+- Distance Example [JUnit 4](Distance) | [JUnit 5](Distance)
+- Tick Vaccination Adviser Example[JUnit 4](TickVaccinationAdviser) | [JUnit 5](TickVaccinationAdviser)
+- Stack Example [JUnit 4](Stack) | [JUnit 5](Stack)
+- Queue Example [JUnit 4](Queue) | [JUnit 5](Queue)
 
 all Exercises includes basic implementation to exercise test automation with test framework JUnit. The order of exercises represents the complexity of each exercise. First Exercises includes more information and step-by-step guidelines. 
 
