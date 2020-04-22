@@ -12,3 +12,4 @@ New Features: ... description coming soon
 * [Tick Vaccination Adviser Example](TickVaccinationAdviser)
 * [Stack Example](Stack)
 * [Queue Example](Queue)
+* [Drinks Example](Drinks)
