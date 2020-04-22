@@ -9,6 +9,13 @@ Bachelor program **IT DUAL**:
 - [Mobile Software Development](https://www.fh-joanneum.at/msd) (FH JOANNEUM)
 - [Business Software Development](http://www.campus02.at) (FH CAMPUS 02)
 
+
+**Contributors, Lecturers and Tutors**
+- [Michael Ulm](https://github.com/michaelulm "Michael Ulm")
+- [Christian Hofer](https://github.com/chrishofer "Christian Hofer")
+- [Harald Schwab](https://github.com/Rigbin "Harald Schwab")
+
+
 **Course:**
 
 - Configuration Management (Konfigurationsmanagement)
@@ -16,11 +23,11 @@ Bachelor program **IT DUAL**:
 
 ## Course Modules: ##
 
-- [Project Layouts](project-layouts)
-- [Source Code Versioning](versioning)
-- [Technical Documentation](documentation)
+- [Project Layouts](project-layouts), with **Maven** and general project structure
+- [Source Code Versioning](versioning), with **Git** Source Code Versioning
+- [Technical Documentation](documentation), with **JavaDoc** and **Maven Site**
+- [Test Automation](test-automation), with **JUnit** 4 and JUnit 5 (soon)
 - [Build Automation](build-automation)
-- [Test Automation](test-automation)
 
 take a look on following helpful links, specific topics will be described in separated course modules
 
@@ -69,10 +76,4 @@ take a look on following helpful links, specific topics will be described in sep
 - [Ant Run Executable Jar with Arguments](https://stackoverflow.com/questions/3730880/use-ant-for-running-program-with-command-line-arguments/3731246 "Use Ant for running program with command line arguments")
 - [Maven Plugin: Run Executable Jar](https://stackoverflow.com/questions/1089285/maven-run-project "run maven project")
 
-Test Automation
-
-- [JUnit Test Framework](https://junit.org/ "JUnit Test Framework")
-- [Article: Unit Testing with JUnit](http://www.vogella.com/articles/JUnit/article.html "Vogella Tutorial - Good to read")
-- [Article (german): Java Tests mit JUnit](http://www.tutego.de/blog/javainsel/2010/04/junit-4-tutorial-java-tests-mit-junit/ "German Article to Java Tests with JUnit, extended Article, good structured") 
-- [List of JUnit Annotations](http://www.java2novice.com/junit-examples/junit-annotations/)
 

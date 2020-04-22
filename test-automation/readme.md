@@ -4,16 +4,16 @@
 
 ## Test Automation with JUnit ##
 
-Examples:
+Examples (Take care, **JUnit 4 ready**, JUnit 5 coming soon)
 
-- [Calculator Example](Calculator)
-- [Loan Calculator Example](LoanCalculator)
-- [Distance Example](Distance)
-- [Tick Vaccination Adviser Example](TickVaccinationAdviser)
-- [Stack Example](Stack)
-- [Queue Example](Queue)
+- Calculator Example [JUnit 4](junit4/Calculator) | [JUnit 5](junit5/Calculator)
+- Loan Calculator Example [JUnit 4](LoanCalculator) | [JUnit 5](LoanCalculator)
+- Distance Example [JUnit 4](Distance) | [JUnit 5](Distance)
+- Tick Vaccination Adviser Example [JUnit 4](TickVaccinationAdviser) | [JUnit 5](TickVaccinationAdviser)
+- Stack Example [JUnit 4](Stack) | [JUnit 5](Stack)
+- Queue Example [JUnit 4](Queue) | [JUnit 5](Queue)
 
-all Exercises includes basic implementation to exercise test automation with test framework JUnit. The order of exercises represents the complexity of each exercise. First Exercises includes more information and step-by-step guidelines. 
+all Exercises includes basic implementation to exercise test automation with test framework JUnit. **The order of exercises represents the complexity** of each exercise. First Exercises includes more information and step-by-step guidelines. 
 
 Graphics are visual impressions for easier understanding for this exercises and will not be part of the exercises.
 
@@ -56,3 +56,13 @@ A queue is another abstract data type that also serves as a collection of elemen
 - **dequeue** (poll), which removes the first added element
 
 There are **no** Test-Cases defined, so you have to design your own Test-Cases the first time. This Example also **includes some Bugs**, which has to be founded by **Debugging** in your IDE
+
+
+### Additional Links ###
+
+- [JUnit Test Framework](https://junit.org/ "JUnit Test Framework")
+- [Article: Unit Testing with JUnit](http://www.vogella.com/articles/JUnit/article.html "Vogella Tutorial - Good to read")
+- [Article (german): Java Tests mit JUnit](http://www.tutego.de/blog/javainsel/2010/04/junit-4-tutorial-java-tests-mit-junit/ "German Article to Java Tests with JUnit, extended Article, good structured") 
+- [List of JUnit Annotations](http://www.java2novice.com/junit-examples/junit-annotations/)
+- [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
+
