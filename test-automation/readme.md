@@ -12,6 +12,7 @@ Examples (Take care, **JUnit 4 ready**, **JUnit 5 ready** _~~coming soon~~_)
 - Tick Vaccination Adviser Example [JUnit 4](junit4/TickVaccinationAdviser) | [JUnit 5](junit5/TickVaccinationAdviser)
 - Stack Example [JUnit 4](junit4/Stack) | [JUnit 5](junit5/Stack)
 - Queue Example [JUnit 4](junit4/Queue) | [JUnit 5](junit5/Queue)
+- Drinks Example [JUnit 5](junit5/Drinks)
 
 all Exercises includes basic implementation to exercise test automation with test framework JUnit. **The order of exercises represents the complexity** of each exercise. First Exercises includes more information and step-by-step guidelines. 
 
@@ -57,6 +58,9 @@ A queue is another abstract data type that also serves as a collection of elemen
 
 There are **no** Test-Cases defined, so you have to design your own Test-Cases the first time. This Example also **includes some Bugs**, which has to be founded by **Debugging** in your IDE
 
+### Drinks Exercise ###
+
+Template for first exercise
 
 ### Additional Links ###
 
