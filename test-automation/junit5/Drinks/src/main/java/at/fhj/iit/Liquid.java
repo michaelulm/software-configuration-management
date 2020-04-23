@@ -14,7 +14,7 @@ public class Liquid {
     private double volume;
 
     /**
-     * alcoholPercent of liquid (in liter)
+     * alcoholPercent of liquid (in percent eg. 42)
      */
     private double alcoholPercent;
 
