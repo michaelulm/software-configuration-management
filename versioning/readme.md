@@ -37,6 +37,8 @@ we are recommending to use those online resource by given order.
 - [Some common .gitignore configuration](https://gist.github.com/octocat/9257657 "Common .gitignore configuration")
 - [GitHub Education](https://education.github.com/students "GitHub Education") (unlimited Private Repositories)
 
+### Student Recommendation
+- Git & GitHub Crash Course for Beginners ([Video](https://www.youtube.com/watch?v=SWYqp7iY_Tc))
 
 ## Examples to Source Code Versioning ##
 

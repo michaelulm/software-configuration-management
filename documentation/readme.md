@@ -14,6 +14,10 @@ we are recommending to use those online resource by given order.
 5. Document Driven Development ([Article](https://gist.github.com/zsup/9434452))
 6. Writing great documentation ([Video](https://www.youtube.com/watch?v=z3fRu9pkuXE))
 
+### Student Recommendation
+
+- Should generated documentation be stored in a Git repository? ([Online Discussion](https://softwareengineering.stackexchange.com/questions/391804/should-generated-documentation-be-stored-in-a-git-repository))
+
 ### Markdown
 
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet "Markdown Cheat Sheet")
