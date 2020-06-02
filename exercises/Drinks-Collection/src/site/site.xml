@@ -1,0 +1,13 @@
+<project name="Drinks-Collection">
+    <publishDate position="right"/>
+    <version position="left"/>
+    <body>
+        <menu name="Overview">
+            <item name="Demo Markdown" href="demo.html" />
+            <item name="Demo APT" href="demo2.html" />
+        </menu>
+        <menu ref="reports" />
+        <menu ref="parent" />
+        <menu ref="modules" />
+    </body>
+</project>

@@ -7,3 +7,4 @@ target
 **/.classpath
 **/.settings/
 **/.factorypath
+/build-automation/SimpleAutomaticBuildProject/build
