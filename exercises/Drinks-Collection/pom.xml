@@ -4,16 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <!-- project main information -->
   <groupId>at.fhj.iit</groupId>
   <artifactId>Drinks</artifactId>
-  <version>1.0-SNAPSHOT</version>
-
+  <version>1.2</version>
   <name>Drinks</name>
-  <url>
-    https://github.com/michaelulm/software-configuration-management/tree/master/test-automation/junit5/Drinks
-  </url>
 
+  <url>https://github.com/michaelulm/software-configuration-management/tree/master/test-automation/junit5/Drinks</url>
+
+  <!-- general developers information -->
   <developers>
+    <!-- each developer with general information for better communication within the project team -->
     <developer>
       <id>michaelulm</id>
       <name>Michael Ulm</name>
@@ -60,7 +61,9 @@
     <maven.comiler.release>11</maven.comiler.release>
   </properties>
 
+  <!-- project dependencies -->
   <dependencies>
+    <!-- test automation with JUnit -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
@@ -81,8 +84,48 @@
     </dependency>
   </dependencies>
 
+  <reporting>
+    <plugins>
+      <!-- maven site for documentation -->
+      <!-- manual upgraded maven site plugin, because 3.3 had an error -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>3.7.1</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>3.0.0</version>
+      </plugin>
+      <!-- java doc support for maven site -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.2.0</version>
+        <reportSets>
+          <!-- reports our javadocs in our src code and test code -->
+          <reportSet>
+            <reports>
+              <report>javadoc</report>
+              <report>test-javadoc</report>
+            </reports>
+          </reportSet>
+          <reportSet><!-- aggregate reportSet, to define in poms having modules -->
+            <id>aggregate</id>
+            <inherited>false</inherited><!-- don't run aggregate in child modules -->
+            <reports>
+              <report>aggregate</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+    </plugins>
+  </reporting>
+
   <build>
     <plugins>
+      <!-- plugins for build automation process -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
