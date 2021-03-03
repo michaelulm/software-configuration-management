@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- project main information -->
+  <groupId>at.fhj.iit</groupId>
+  <artifactId>Drinks</artifactId>
+  <version>1.3.0</version>
+  <name>Drinks</name>
+
+  <url>https://github.com/michaelulm/software-configuration-management/tree/master/exercises/Drinks-Sample</url>
+
+  <!-- general developers information -->
+  <developers>
+    <!-- each developer with general information for better communication within the project team -->
+    <developer>
+      <id>michaelulm</id>
+      <name>Michael Ulm</name>
+      <email>michael.ulm@fh-joanneum.at</email>
+      <url>https://www.michael-ulm.at</url>
+      <organization>FH JOANNEUM GmbH</organization>
+      <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+      <roles>
+        <role>Senior Lecturer</role>
+      </roles>
+      <timezone>Europe/Vienna</timezone>
+      <properties>
+        <picUrl>https://avatars2.githubusercontent.com/u/15637184</picUrl>
+      </properties>
+    </developer>
+    <developer>
+      <id>chrishofer</id>
+      <name>Christian Hofer</name>
+      <email>christian.hofer@campus02.at</email>
+      <organization>CAMPUS 02 Fachhochschule der Wirtschaft GmbH</organization>
+      <organizationUrl>https://www.campus02.at/wirtschaftsinformatik</organizationUrl>
+      <roles>
+        <role>Lecturer &amp; Research Scientist</role>
+      </roles>
+      <timezone>Europe/Vienna</timezone>
+    </developer>
+    <developer>
+      <id>Rigbin</id>
+      <name>Harald Schwab</name>
+      <email>harald.schwab2@fh-joanneum.at</email>
+      <url>https://github.com/Rigbin</url>
+      <organization>FH JOANNEUM GmbH</organization>
+      <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+      <roles>
+        <role>Researcher</role>
+      </roles>
+      <timezone>Europe/Vienna</timezone>
+      <properties/>
+    </developer>
+  </developers>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.comiler.release>11</maven.comiler.release>
+  </properties>
+
+
+  <build>
+    <plugins>
+      <!-- plugins for build automation process -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+        <configuration>
+          <release>11</release>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
