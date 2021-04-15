@@ -1,13 +1,12 @@
 package at.fhj.iit;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.fail;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayName("Testing Calculator implementation")
 public class CalculatorImplTest {
@@ -41,10 +40,14 @@ public class CalculatorImplTest {
 		assertEquals(expected, actual, 0.001);
 	}
 
-	@ParameterizedTest
+	@Test
 	@DisplayName("Testing subtraction")
 	public void testMinus() {
-		fail("please implement me...");
+		// EXERCISE PHASE
+		double actual = calc.minus(5, 2);
+
+		// VERIFY PHASE
+		assertEquals(3, actual, 0.001);
 	}
 
 	@ParameterizedTest
