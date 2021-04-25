@@ -6,10 +6,23 @@
 
 Before you start with Maven Build Automation, it's necessary to understand which steps will happen "under the hood". The Demo Project [Hello World](../exercises/Hello-World/) and [Hello World Test](../exercises/Hello-World-Test/) will introduce you basic steps for compile sources and create java archive.
 
+*First steps*
+
+- [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html "Maven in 5 Minutes")
+- [Maven Lifecycle](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html "Introduction to Maven Lifecycle")
+- [Maven Local Repository](https://www.baeldung.com/maven-local-repository "Where is the Maven Local Repository?") 
+- [Ant First Steps](http://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html "Hello World with Ant")
+- [Ant Tasks](https://ant.apache.org/manual/tasksoverview.html "Common Ant Tasks")
+- [Ant Property](https://ant.apache.org/manual/Tasks/property.html "Ant Property")
+
+*Executable Jar*
+
+- [Ant Run Executable Jar with Arguments](https://stackoverflow.com/questions/3730880/use-ant-for-running-program-with-command-line-arguments/3731246 "Use Ant for running program with command line arguments")
+- [Maven Plugin: Run Executable Jar](https://stackoverflow.com/questions/1089285/maven-run-project "run maven project")
+
 ## Maven Overview ##
 
 ### Maven Lifecycle ###
-
 
 ![Maven Lifecycle Visualization](https://i2.wp.com/www.deegeu.com/wp-content/uploads/2016/12/004-Creating-Microservices.006.jpeg)
 
