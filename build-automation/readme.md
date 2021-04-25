@@ -2,6 +2,10 @@
 
 **EDUCATION Repository**
 
+## First Steps in Build (Automation)##
+
+Before you start with Maven Build Automation, it's necessary to understand which steps will happen "under the hood". The Demo Project [Hello World](../exercises/Hello-World/) and [Hello World Test](../exercises/Hello-World-Test/) will introduce you basic steps for compile sources and create java archive.
+
 ## Maven Overview ##
 
 ### Maven Lifecycle ###
