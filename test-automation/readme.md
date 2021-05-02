@@ -6,13 +6,15 @@
 
 Examples (Take care, **JUnit 4 ready**, **JUnit 5 ready** _~~coming soon~~_)
 
-- Calculator Example [JUnit 4](junit4/Calculator) | [JUnit 5](junit5/Calculator)
-- Loan Calculator Example [JUnit 4](junit4/LoanCalculator) | [JUnit 5](junit5/LoanCalculator)
-- Distance Example [JUnit 4](junit4/Distance) | [JUnit 5](junit5/Distance)
-- Tick Vaccination Adviser Example [JUnit 4](junit4/TickVaccinationAdviser) | [JUnit 5](junit5/TickVaccinationAdviser)
-- Stack Example [JUnit 4](junit4/Stack) | [JUnit 5](junit5/Stack)
-- Queue Example [JUnit 4](junit4/Queue) | [JUnit 5](junit5/Queue)
-- Drinks Example [JUnit 5](junit5/Drinks)
+| Example | JUnit 4 | JUnit 5 |
+| --------------------------------- | :---------------------------------------: | :---------------------------------------:	|
+| Calculator Example				| [JUnit 4](junit4/Calculator) 				| [JUnit 5](junit5/Calculator) 				|
+| Loan Calculator Example			| [JUnit 4](junit4/LoanCalculator) 			| [JUnit 5](junit5/LoanCalculator) 			|
+| Distance Example					| [JUnit 4](junit4/Distance) 				| [JUnit 5](junit5/Distance) 				|
+| Tick Vaccination Adviser Example	| [JUnit 4](junit4/TickVaccinationAdviser) 	| [JUnit 5](junit5/TickVaccinationAdviser)	|			
+| Stack Example						| [JUnit 4](junit4/Stack) 					| [JUnit 5](junit5/Stack) 					|
+| Queue Example						| [JUnit 4](junit4/Queue) 					| [JUnit 5](junit5/Queue) 					|
+| Drinks Example					| deprecated								| [JUnit 5](junit5/Drinks) 					|
 
 all Exercises includes basic implementation to exercise test automation with test framework JUnit. **The order of exercises represents the complexity** of each exercise. First Exercises includes more information and step-by-step guidelines. 
 
@@ -60,7 +62,7 @@ There are **no** Test-Cases defined, so you have to design your own Test-Cases t
 
 ### Drinks Exercise ###
 
-Template for first exercise
+Template for exercises
 
 ### Additional Links ###
 

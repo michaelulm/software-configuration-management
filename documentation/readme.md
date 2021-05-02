@@ -4,6 +4,14 @@
 
 ## Technical Documentation
 
+Technical Documentation is different to a user manual. The main target group of Technical Documentation are developers, test engineers or other kind of person related in our case to software development.
+
+* [Make a README](https://www.makeareadme.com/) (why, who, when, where, ...)
+* [Documentation System](https://documentation.divio.com/) (Tutorial, How-To, Explanation, References)
+
+Depending on the situation we need different kind of Technical Documenation. Think about all areas to fulfill different needs.
+
+
 ### Recommended first steps and matching online resources
 
 we are recommending to use those online resource by given order.

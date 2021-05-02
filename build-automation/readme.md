@@ -6,11 +6,13 @@
 
 Before you start with Maven Build Automation, it's necessary to understand which steps will happen "under the hood". The Demo Project [Hello World](../exercises/Hello-World/) and [Hello World Test](../exercises/Hello-World-Test/) will introduce you basic steps for compile sources and create java archive.
 
-*First steps*
+*First steps* to get a first overview about Maven.
 
 - [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html "Maven in 5 Minutes")
 - [Maven Lifecycle](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html "Introduction to Maven Lifecycle")
 - [Maven Local Repository](https://www.baeldung.com/maven-local-repository "Where is the Maven Local Repository?") 
+
+*Previous Build Tool Ant* for more flexibility 
 - [Ant First Steps](http://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html "Hello World with Ant")
 - [Ant Tasks](https://ant.apache.org/manual/tasksoverview.html "Common Ant Tasks")
 - [Ant Property](https://ant.apache.org/manual/Tasks/property.html "Ant Property")
@@ -41,7 +43,7 @@ will trigger the following steps
 
 Details will be explained at the [Lifecycle Reference](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#Lifecycle_Reference "Maven Lifecycle Reference").
 
-Running Maven for the first time, will download needed Repositories to the [local Repository](https://www.baeldung.com/maven-local-repository), which is located to your user home directory in the subdirectory .m2
+Running Maven for the first time will download needed Repositories to the [local Repository](https://www.baeldung.com/maven-local-repository), which is located in the subdirectory `.m2` of your user home directory.
 
 ## Ant ##
 

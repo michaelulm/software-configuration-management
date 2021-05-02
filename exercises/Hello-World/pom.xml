@@ -72,8 +72,6 @@
                             <mainClass>at.fhj.iit.Main</mainClass>
                         </manifest>
                     </archive>
-                    <!-- will create package at specific directory, just for demonstration JAR usage -->
-                    <outputDirectory>../Hello-World-Test/src/main/resources/</outputDirectory>
                 </configuration>
 			</plugin>
 			
