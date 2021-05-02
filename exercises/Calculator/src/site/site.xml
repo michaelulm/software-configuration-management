@@ -1,0 +1,19 @@
+<project name="Calculator Documentation Demo">
+	<publishDate position="right"/>
+	<version position="left"/>
+	<body>
+
+		<menu name="Overview">
+			<item name="Introduction" href="index.html" />
+			<item name="README" href="README.html" />
+			<item name="Calculator" href="Calculator.html" />
+			<item name="Faculty" href="Faculty.html" />
+		</menu>
+		<menu ref="reports" />
+		<menu ref="parent" />
+		<menu ref="modules" />
+	</body>
+	<poweredBy>
+		<logo name="IT-DUAL" href="https://it-dual.fh-joanneum.at/" img="./images/itdual-300x81.png" width="100px"/>
+	</poweredBy>
+</project>

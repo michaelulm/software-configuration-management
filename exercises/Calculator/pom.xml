@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+	<!-- TEMPLATE pom.xml, TODO replace information or remove not needed parts -->
+
+    <groupId>at.fhj.iit</groupId>
+    <artifactId>Calculator</artifactId>
+    <version>1.1</version>
+	<description>Template and Demonstration Example</description>
+
+	<!-- developers information, will be used for documentation -->
+	<developers>
+		<developer>
+		  <id>michaelulm</id>
+		  <name>Michael Ulm</name>
+		  <email>michael.ulm@fh-joanneum.at</email>
+		  <url>https://www.michael-ulm.at</url>
+		  <organization>FH JOANNEUM GmbH</organization>
+		  <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+		  <roles>
+			<role>Senior Lecturer</role>
+		  </roles>
+		  <timezone>Europe/Vienna</timezone>
+		  <properties>
+			<picUrl>https://avatars2.githubusercontent.com/u/15637184</picUrl>
+		  </properties>
+		</developer>     
+	</developers>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.comiler.release>11</maven.comiler.release>
+		<junit-platform.version>5.7.0-M1</junit-platform.version>
+	</properties>
+	
+	<!-- build configuration -->
+    <build>
+        <plugins>
+			<!-- build automation process -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+				  <release>11</release>
+				</configuration>
+			</plugin>
+			<!-- reporting -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>3.7.1</version>
+			</plugin>
+			<!-- will run unit tests -->
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.1</version>
+			</plugin>
+			<!-- generate information about test coverage -->
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.8.6</version>
+				<executions>
+				  <execution>
+					<id>prepare-agent</id>
+					<goals>
+					  <goal>prepare-agent</goal>
+					</goals>
+				  </execution>
+				  <execution>
+					<id>report</id>
+					<phase>test</phase>
+					<goals>
+					  <goal>report</goal>
+					</goals>
+				  </execution>
+				</executions>
+			</plugin>
+			<!-- using README.md for Maven Site Documentation -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<executions>
+					<execution>
+						<!-- Copy the readme file to the site source files so that a page is generated from it. -->
+						<!-- https://stackoverflow.com/questions/13748659/how-to-include-github-markdown-files-into-maven-site -->
+						<id>copy-readme</id>
+						<phase>pre-site</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${basedir}/src/site/markdown</outputDirectory>
+							<resources>
+								<resource>
+									<directory>${basedir}</directory>
+									<includes>
+										<include>README.md</include>
+									</includes>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+        </plugins>
+    </build>
+
+	<dependencies>
+		<!-- JUnit 5 testing -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.7.0-M1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.7.0-M1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.7.0-M1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-params</artifactId>
+			<version>5.7.0-M1</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- JUnit 5 errors in Intellij -->
+		<dependency>
+			<groupId>org.junit.vintage</groupId>
+			<artifactId>junit-vintage-engine</artifactId>
+			<version>5.7.0</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- generates standard reports for the specified project -->
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-project-info-reports-plugin</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+	</dependencies>
+	
+    <reporting>
+        <plugins>
+            <!-- maven site for documentation -->
+			<plugin>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
+				<version>3.0.0</version>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>3.7.1</version>
+			</plugin>
+
+			<!-- Java Doc within Maven Site Documentation-->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.2.0</version>
+			</plugin>
+
+			<!-- Test Coverage from JaCoCo Plugin integration in Maven Site Documentation -->
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<configuration>
+					<dataFile>${jacoco.execution.data.file}</dataFile>
+				</configuration>
+				<reportSets>
+					<reportSet>
+						<reports>
+							<report>report</report>
+						</reports>
+					</reportSet>
+				</reportSets>
+			</plugin>
+        </plugins>
+    </reporting>
+	
+    <!-- define SCM and will be read by generating maven site -->
+    <scm>
+        <connection>scm:git:https://github.com/michaelulm/software-configuration-management</connection>
+        <developerConnection>scm:git:https://github.com/michaelulm/software-configuration-management</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/michaelulm/software-configuration-management</url>
+    </scm>
+
+    <!-- define your current license, Care about sharing :) -->
+    <licenses>
+        <license>
+            <name>GNU GPLv3 </name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.de.html</url>
+            <distribution>repo</distribution>
+            <comments>I care about sharing improvements.</comments>
+        </license>
+    </licenses>
+
+</project>

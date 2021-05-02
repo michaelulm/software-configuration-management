@@ -1,0 +1,12 @@
+Calculator Example
+
+	Java Implementation for first test implementations, build with maven and write documentation.
+
+* Source Code
+
+	Interface and Implementation Classes, including method signatures in interface and very simple calculation in implementation class.
+
+* Test Code
+
+    currently all implemented methods are tested to 100%
+

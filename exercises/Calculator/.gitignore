@@ -1,0 +1,41 @@
+# Maven
+# General
+target/
+
+# Java
+# Compiled class file
+*.class
+# Log file
+*.log
+
+# Documentation
+# will be copied before generating maven site documentation, not needed in repository (!)
+/src/site/markdown/README.md
+
+# IntelliJ
+# if you are using pom.xml Intellij will use pom.xml for first usage and generates iml file and idea directory
+# General
+.idea/
+out/
+*.iml
+
+# Eclipse
+# General
+.project
+.classpath
+.settings/
+build/
+
+# Visual Studio
+# General
+.vscode
+
+# Apple MacOS
+# General
+.DS_Store
+# Thumbnails
+._*
+# might appear in the root of a volume
+.Spotlight-V100
+.TemporaryItems
+.Trashes
