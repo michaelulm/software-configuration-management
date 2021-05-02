@@ -8,6 +8,9 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Testing CalculatorImpl to complete High Test Coverage
+ */
 @DisplayName("Testing Calculator implementation")
 public class CalculatorImplTest {
 	private Calculator calc;
@@ -32,6 +35,9 @@ public class CalculatorImplTest {
 			"-2, -2, -4"
 	})
 	@DisplayName("Testing addition")
+	/**
+	 * is testing addition of two numbers
+	 */
 	void testAdd(double addend1, double addend2, double expected) {
 		// EXERCISE PHASE
 		double actual = calc.add(addend1, addend2);
@@ -42,6 +48,9 @@ public class CalculatorImplTest {
 
 	@Test
 	@DisplayName("Testing subtraction")
+	/**
+	 * is testing difference of two numbers
+	 */
 	public void testMinus() {
 		// EXERCISE PHASE
 		double actual = calc.minus(5, 2);
@@ -52,6 +61,9 @@ public class CalculatorImplTest {
 
 	@Test
 	@DisplayName("Testing multiplication")
+	/**
+	 * is testing multiplication of two numbers
+	 */
 	public void testMultiply() {
 		double actual = calc.multiply(5, 2);
 		assertEquals(10, actual, 0.001);
@@ -59,6 +71,9 @@ public class CalculatorImplTest {
 
 	@Test
 	@DisplayName("Testing divide")
+	/**
+	 * is testing division of two numbers
+	 */
 	public void testDivide() {
 		double actual = calc.divide(5, 2);
 		assertEquals(2.5, actual, 0.001);
@@ -66,6 +81,9 @@ public class CalculatorImplTest {
 
 	@Test
 	@DisplayName("Testing divide by zero")
+	/**
+	 * is testing division by zero, which has to throw Exception
+	 */
 	public void testDivideWithZero() {
 		assertThrows(ArithmeticException.class, () -> {
 			calc.divide(5, 0);
@@ -84,6 +102,9 @@ public class CalculatorImplTest {
 			"7, 5040"
 	})
 	@DisplayName("Testing faculty")
+	/**
+	 * is testing faculty calculation by a couple of numbers
+	 */
 	void testFaculty(int number, int expected) {
 		assertEquals(expected, calc.faculty(number));
 	}
@@ -91,11 +112,11 @@ public class CalculatorImplTest {
 
 	@Test
 	@DisplayName("Testing sum from 1 to n")
+	/**
+	 * is testing sum of natural numbers between 1 and 5
+	 */
 	void testSumOfNaturalNumbers() {
-
 		assertEquals(calc.sumOfNaturalNumbers(5), (1+2+3+4+5));
-
-//		fail("implement me");
 	}
 
 

@@ -10,6 +10,7 @@
     <artifactId>Calculator</artifactId>
     <version>1.1</version>
 	<description>Template and Demonstration Example</description>
+	<url>https://github.com/michaelulm/software-configuration-management/tree/master/exercises/Calculator</url>
 
 	<!-- developers information, will be used for documentation -->
 	<developers>
@@ -55,9 +56,11 @@
 				<version>3.7.1</version>
 			</plugin>
 			<!-- will run unit tests -->
+			<!-- currently throws some warnings -->
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.22.1</version>
+				<version>3.0.0-M5</version>
 			</plugin>
 			<!-- generate information about test coverage -->
 			<plugin>
@@ -84,6 +87,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.6</version>
 				<executions>
 					<execution>
 						<!-- Copy the readme file to the site source files so that a page is generated from it. -->
@@ -136,19 +140,6 @@
 			<version>5.7.0-M1</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- JUnit 5 errors in Intellij -->
-		<dependency>
-			<groupId>org.junit.vintage</groupId>
-			<artifactId>junit-vintage-engine</artifactId>
-			<version>5.7.0</version>
-			<scope>test</scope>
-		</dependency>
-		<!-- generates standard reports for the specified project -->
-		<dependency>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-project-info-reports-plugin</artifactId>
-			<version>3.0.0</version>
-		</dependency>
 	</dependencies>
 	
     <reporting>
@@ -170,6 +161,10 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<version>3.2.0</version>
+				<configuration>
+					<!-- Disable JavaDoc warnings -->
+					<additionalJOption>-Xdoclint:none</additionalJOption>
+				</configuration>
 			</plugin>
 
 			<!-- Test Coverage from JaCoCo Plugin integration in Maven Site Documentation -->
